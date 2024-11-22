@@ -48,7 +48,6 @@ class StraightLine {
         return new Point(x, y);
     }
 
-    // Проверка, параллельны ли две прямые
     public boolean isParallel(StraightLine other) {
         return A * other.B == B * other.A;
     }
